@@ -95,7 +95,9 @@ An interactive **Power BI Dashboard** visualizes:
 - Correlation between ratings, sentiment, and check-ins.  
 - Churn probability predictions and retention levers.  
 
-**File:** `/reports/dashboards/churn_retention.pbix`
+**File:** 
+![Customer Churn](dashboard/dashboard.png)
+
 
 ---
 
@@ -193,4 +195,5 @@ An interactive **Power BI Dashboard** visualizes:
 **Contact:** [yourmail@example.com]  
 **LinkedIn:** [linkedin.com/in/yourprofile]  
 **GitHub:** [github.com/yourusername]
+
 
