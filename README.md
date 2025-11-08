@@ -1,12 +1,12 @@
 
 # **Customer Churn Prediction and Retention Strategy**
 
-## 📘 Overview
+##  Overview
 This project analyzes Yelp restaurant data to identify key factors influencing customer churn and develop data-driven retention strategies. Using real user engagement and sentiment signals, the analysis combines statistical methods, machine learning, and visualization to uncover actionable insights for improving restaurant success and customer loyalty.
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 In a competitive restaurant market, customer attrition (churn) directly impacts profitability. The goal is to:
 - Predict which restaurants are at risk of losing customers.  
 - Understand engagement and sentiment drivers behind churn.  
@@ -14,7 +14,7 @@ In a competitive restaurant market, customer attrition (churn) directly impacts 
 
 ---
 
-## 🧩 Dataset
+##  Dataset
 The data comes from the **Yelp Open Dataset**, focusing on restaurant-type businesses.  
 It includes five JSON files:
 1. **business.json** – Restaurant details (location, ratings, review counts)  
@@ -27,7 +27,7 @@ After cleaning, these were integrated into a unified analytical dataset stored i
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 **Languages & Libraries:** Python, pandas, NumPy, matplotlib, seaborn, scikit-learn, sqlite3, nltk  
 **Visualization:** Power BI, Matplotlib, Seaborn  
 **Storage:** SQLite Database  
@@ -36,7 +36,7 @@ After cleaning, these were integrated into a unified analytical dataset stored i
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 customer_churn_prediction_yelp/  
 │  
@@ -51,7 +51,7 @@ customer_churn_prediction_yelp/
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 - Filtered active/open restaurant businesses.  
 - Removed missing or inconsistent entries (business_id, stars, review_count).  
 - Aggregated engagement metrics (reviews, tips, check-ins).  
@@ -61,7 +61,7 @@ customer_churn_prediction_yelp/
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 EDA examined:
 - Correlation among reviews, check-ins, and tips.  
 - Sentiment vs. rating trends.  
@@ -71,25 +71,25 @@ EDA examined:
 
 ---
 
-## 🔍 Research Questions & Key Findings
+##  Research Questions & Key Findings
 **1. Does higher engagement predict success?**  
-✅ Yes — engagement across reviews, tips, and check-ins is tightly correlated.  
+ Yes — engagement across reviews, tips, and check-ins is tightly correlated.  
 
 **2. Do high ratings guarantee retention?**  
-❌ No — 4★ restaurants often show the most stable engagement; 5★ can plateau.  
+ No — 4★ restaurants often show the most stable engagement; 5★ can plateau.  
 
 **3. Which cities perform best?**  
-🏙️ Philadelphia, Tampa, Indianapolis, and Tucson lead in engagement and retention.  
+ Philadelphia, Tampa, Indianapolis, and Tucson lead in engagement and retention.  
 
 **4. What signals predict churn?**  
-📉 Drop in review/check-in activity, loss of elite users, and negative sentiment.  
+ Drop in review/check-in activity, loss of elite users, and negative sentiment.  
 
 **5. What are the busiest times?**  
-⏰ Evenings (4 PM–1 AM) and winter months (Nov–Mar) show peak engagement.  
+ Evenings (4 PM–1 AM) and winter months (Nov–Mar) show peak engagement.  
 
 ---
 
-## 📈 Dashboard
+##  Dashboard
 An interactive **Power BI Dashboard** visualizes:
 - Engagement and churn trends by city and time.  
 - Correlation between ratings, sentiment, and check-ins.  
@@ -101,7 +101,7 @@ An interactive **Power BI Dashboard** visualizes:
 
 ---
 
-## ⚙️ How to Run This Project
+##  How to Run This Project
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/customer_churn_prediction_yelp.git
@@ -109,7 +109,7 @@ An interactive **Power BI Dashboard** visualizes:
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 - Filtered active/open restaurant businesses.  
 - Removed missing or inconsistent entries (business_id, stars, review_count).  
 - Aggregated engagement metrics (reviews, tips, check-ins).  
@@ -119,7 +119,7 @@ An interactive **Power BI Dashboard** visualizes:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 EDA examined:
 - Correlation among reviews, check-ins, and tips.  
 - Sentiment vs. rating trends.  
@@ -129,25 +129,25 @@ EDA examined:
 
 ---
 
-## 🔍 Research Questions & Key Findings
+##  Research Questions & Key Findings
 **1. Does higher engagement predict success?**  
-✅ Yes — engagement across reviews, tips, and check-ins is tightly correlated.  
+ Yes — engagement across reviews, tips, and check-ins is tightly correlated.  
 
 **2. Do high ratings guarantee retention?**  
-❌ No — 4★ restaurants often show the most stable engagement; 5★ can plateau.  
+ No — 4★ restaurants often show the most stable engagement; 5★ can plateau.  
 
 **3. Which cities perform best?**  
-🏙️ Philadelphia, Tampa, Indianapolis, and Tucson lead in engagement and retention.  
+ Philadelphia, Tampa, Indianapolis, and Tucson lead in engagement and retention.  
 
 **4. What signals predict churn?**  
-📉 Drop in review/check-in activity, loss of elite users, and negative sentiment.  
+ Drop in review/check-in activity, loss of elite users, and negative sentiment.  
 
 **5. What are the busiest times?**  
-⏰ Evenings (4 PM–1 AM) and winter months (Nov–Mar) show peak engagement.  
+ Evenings (4 PM–1 AM) and winter months (Nov–Mar) show peak engagement.  
 
 ---
 
-## 📈 Dashboard
+##  Dashboard
 An interactive **Power BI Dashboard** visualizes:
 - Engagement and churn trends by city and time.  
 - Correlation between ratings, sentiment, and check-ins.  
@@ -157,25 +157,6 @@ An interactive **Power BI Dashboard** visualizes:
 
 ---
 
-## ⚙️ How to Run This Project
-1. **Clone the repository:**
-   bash
-   git clone https://github.com/yourusername/customer_churn_prediction_yelp.git
-   cd customer_churn_prediction_yelp
-2. ****Install dependencies:****
-	pip install -r requirements.txt
-3 **Run notebooks in order:**
-**01_database_creation.ipynb**
-** 02_data_cleaning.ipynb **
-**03_exploratory_analysis.ipynb**
-** 04_modeling_churn.ipynb**
-** 05_retention_strategy.ipynb**
-2. ****Run notebooks in order:****
-01_database_creation.ipynb
-02_data_cleaning.ipynb 
-03_exploratory_analysis.ipynb
-04_modeling_churn.ipynb
-05_retention_strategy.ipynb
 
 #### Final Recommendations
 
@@ -189,11 +170,10 @@ An interactive **Power BI Dashboard** visualizes:
     
 -   **Integrate sentiment tracking** into regular customer feedback systems.
 
-### 👤 Author & Contact
-**Author:** M.M.  
+###  Author & Contact
+**Author:** Mohd .Moinuddin  
 **Role:** Data Analyst | Machine Learning Enthusiast  
-**Contact:** [yourmail@example.com]  
-**LinkedIn:** [linkedin.com/in/yourprofile]  
-**GitHub:** [github.com/yourusername]
+**Contact:** [moinuddinn012@gmail.com]  
+
 
 
